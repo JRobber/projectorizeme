@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="projectorize">
+
+<head>
+  <meta charset="utf-8">
+  <title>A New Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+
+<body ng-controller="projectCtrl">
+    
+  <div class="loading" ng-show="isLoading"><i class="fa fa-spinner fa-3x"></i></div>
+    
+  <div class="master">
+    <div class="content">
+      <div class="left-bar">
+        <part-list></part-list>
+      </div>
+      <div class="content-content">
+        <step-list></step-list>
+    </div>
+  </div>
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>-->
+  <script src="/js/app.js"></script>
+  <script src="/js/project-steps/projectCtrl.js"></script>
+  <script src="/js/project-steps/projectService.js"></script>
+  <script src="/js/directives/part-list.js"></script>
+  <script src="/js/directives/step-list.js"></script>
+  <script src="/js/directives/step.js"></script>
+</body>
+
+</html>
