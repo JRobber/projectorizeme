@@ -3,7 +3,6 @@ html {
   margin: 0px;
   height: 100%;
 }
-
 .left-bar {
   display: flex;
   flex: 1;
@@ -11,7 +10,6 @@ html {
   box-shadow: 3px 0px 3px 1px #c9c9c9;
   background-color: #9ad3de;
 }
-
 .left-bar li {
   list-style: none;
   padding-left: 12px;
@@ -19,7 +17,6 @@ html {
   border: 1px solid #89bdd3;
   padding-top: 24px;
 }
-
 .left-bar li.selected {
   background-color: #89bdd3;
 }
